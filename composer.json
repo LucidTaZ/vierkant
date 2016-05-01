@@ -1,0 +1,14 @@
+{
+    "name": "lucidtaz/vierkant",
+    "description": "Small demo project to show unit testing",
+    "require-dev": {
+        "phpunit/phpunit": "^5.3"
+    },
+    "require": {},
+    "autoload": {
+        "psr-4": { "lucidtaz\\vierkant\\": "src/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "lucidtaz\\vierkant\\tests\\": "tests/" }
+    }
+}
